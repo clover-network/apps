@@ -75,6 +75,7 @@ const spec: Record<string, OverrideBundleDefinition> = {
   'centrifuge-chain': centrifugeChain,
   chainx,
   clover,
+  cloverivy: clover,
   'clover-rococo': cloverRococo,
   crust,
   'crust-parachain': crustParachain,

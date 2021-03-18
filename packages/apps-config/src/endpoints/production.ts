@@ -16,6 +16,13 @@ import { expandEndpoints } from './util';
 
 export function createProduction (t: TFunction): LinkOption[] {
   return expandEndpoints(t, [
+    {
+      info: 'clover',
+      text: t('rpc-ivy.clover.finance', 'Clover Ivy', { ns: 'apps-config' }),
+      providers: {
+        Clover: 'wss://api-ivy.clover.finance',
+      }
+    },
     // fixed, polkadot
     {
       dnslink: 'polkadot',
