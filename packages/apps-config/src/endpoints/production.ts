@@ -20,7 +20,7 @@ export function createProduction (t: TFunction): LinkOption[] {
       info: 'clover',
       text: t('rpc-ivy.clover.finance', 'Clover Ivy', { ns: 'apps-config' }),
       providers: {
-        Clover: 'wss://api-ivy.clover.finance',
+        Clover: 'wss://api-ivy.clover.finance'
       }
     },
     // fixed, polkadot

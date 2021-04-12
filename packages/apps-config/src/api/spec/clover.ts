@@ -13,13 +13,14 @@ const definitions: OverrideBundleDefinition = {
       minmax: [0, undefined],
       types: {
         Amount: 'i128',
-        Keys: 'SessionKeys3',
+        Keys: 'SessionKeys4',
         AmountOf: 'Amount',
         Balance: 'u128',
         Rate: 'FixedU128',
         Ratio: 'FixedU128',
         EcdsaSignature: '[u8; 65]',
-        EvmAddress: 'H160'
+        EvmAddress: 'H160',
+        EthereumTxHash: 'H256'
       }
     }
   ]
