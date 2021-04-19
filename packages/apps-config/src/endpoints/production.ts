@@ -18,9 +18,9 @@ export function createProduction (t: TFunction): LinkOption[] {
   return expandEndpoints(t, [
     {
       info: 'clover',
-      text: t('rpc-ivy.clover.finance', 'Clover Mainnet', { ns: 'apps-config' }),
+      text: t('rpc-ivy-elastic.clover.finance', 'Clover Mainnet', { ns: 'apps-config' }),
       providers: {
-        Clover: 'wss://api-ivy.clover.finance'
+        Clover: 'wss://api-ivy-elastic.clover.finance'
       }
     },
     // fixed, polkadot
