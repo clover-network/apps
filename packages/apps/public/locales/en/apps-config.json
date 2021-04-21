@@ -1,6 +1,6 @@
 {
   "lng.detect": "Default browser language (auto-detect)",
-  "rpc-ivy.clover.finance": "Clover Mainnet",
+  "rpc-ivy-elastic.clover.finance": "Clover Mainnet",
   "rpc.amber": "Amber",
   "rpc.ares": "Ares",
   "rpc.ava.summary": "user-run public nodes; see https://status.cloud.ava.do/",
